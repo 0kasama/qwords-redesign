@@ -19,7 +19,7 @@
                     kebutuhan
                     hosting Anda. Tersertifikasi ISO 27001 dengan Data Center Tier 3.</p>
                 <button
-                    class="my-5 flex justify-center items-center text-white text-2xl btn btn-lg rounded-full w-1/3 btn-primary">Pesan
+                    class="my-5 flex justify-center items-center text-white text-2xl btn btn-lg rounded-full lg:w-1/3 w-full btn-primary">Pesan
                     Sekarang</button>
             </div>
             <div class="w-full flex justify-center items-center"><img

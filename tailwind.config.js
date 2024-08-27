@@ -13,7 +13,7 @@ export default {
         themes: [
             {
                 bumblebee: {
-                    ...require("daisyui/src/theming/themes")["bumblebee"],
+                    ...require("daisyui/src/theming/themes")["light"],
                     primary: "#FF6D0B",
                     secondary: "#FFF8F3",
                     accent: "#D75600",
