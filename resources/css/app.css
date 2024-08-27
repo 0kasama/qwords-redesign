@@ -23,3 +23,15 @@ body {
     top: 0;
     z-index: 50;
 }
+
+.btn-line {
+    background-color: transparent;
+    border: solid 1px #FF6D0B;
+    border-radius: 8px;
+    color: #FF6D0B;
+}
+
+.btn-line:hover {
+    background-color: #FF6D0B;
+    color: white;
+}
