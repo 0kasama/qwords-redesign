@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Data\FindDomainData;
+use App\Data\OtherServiceData;
 use App\Data\PricingData;
 use Illuminate\View\View;
 
@@ -12,6 +13,7 @@ class HomeController extends Controller
     {
         $findDomain = FindDomainData::getFindDomain();
         $pricing = PricingData::getPricing();
-        return view('home', ['findDomain' => $findDomain, 'pricing' => $pricing]);
+        $otherService = OtherServiceData::getOtherService();
+        return view('home', ['findDomain' => $findDomain, 'pricing' => $pricing, 'otherService' => $otherService]);
     }
 }

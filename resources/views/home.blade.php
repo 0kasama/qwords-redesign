@@ -3,3 +3,4 @@
 <x-clients />
 <x-findDomain :findDomain="$findDomain"/>
 <x-pricing :pricing="$pricing" />
+<x-otherService :otherService="$otherService" />
