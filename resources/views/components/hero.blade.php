@@ -10,7 +10,7 @@
 <body>
     <div class="flex flex-col justify-center items-center">
         <div
-            class="px-10 bg-gradient-to-b from-primary to-white min-h-[70vh] flex lg:flex-row flex-col-reverse justify-center items-center">
+            class="px-10 hero-bg min-h-[70vh] flex lg:flex-row flex-col-reverse justify-center items-center">
             <div class="w-full flex flex-col justify-center items-center text-center gap-5">
                 <h1 class="font-extrabold text-5xl">Cloud Hosting</h1>
                 <h1 class="font-extrabold text-5xl">untuk</h1>
@@ -25,7 +25,6 @@
             <div class="w-full flex justify-center items-center"><img
                     src="{{ asset('assets/cloud-hosting-amico.png') }}" width="80%" alt="qwords logo" /></div>
         </div>
-
 </body>
 
 </html>
