@@ -27,21 +27,21 @@
                         <div class="grid grid-cols-2 text-center divide-x">
                             <div class="flex flex-col py-2">
                                 <p>Disk</p>
-                                <p class="text-lg font-extrabold">{{ $pricing['disk'] }}</p>
+                                <p class="text-lg font-extrabold text-primary">{{ $pricing['disk'] }}</p>
                             </div>
                             <div class="flex flex-col py-2">
                                 <p>Bandwidth</p>
-                                <p class="text-lg font-extrabold">{{ $pricing['bandwidth'] }}</p>
+                                <p class="text-lg font-extrabold text-primary">{{ $pricing['bandwidth'] }}</p>
                             </div>
                         </div>
                         <div class="grid grid-cols-2 text-center divide-x">
                             <div class="flex flex-col py-2">
                                 <p>Core CPU</p>
-                                <p class="text-lg font-extrabold">{{ $pricing['core'] }}</p>
+                                <p class="text-lg font-extrabold text-primary">{{ $pricing['core'] }}</p>
                             </div>
                             <div class="flex flex-col py-2">
                                 <p>Addon</p>
-                                <p class="text-lg font-extrabold">{{ $pricing['addon'] }}</p>
+                                <p class="text-lg font-extrabold text-primary">{{ $pricing['addon'] }}</p>
                             </div>
                         </div>
                     </div>
