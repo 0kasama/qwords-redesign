@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <div class="bg-secondary flex flex-col justify-center items-center gap-5 m-20 p-20 w-full">
-        <h1 class="font-extrabold text-5xl">Lihat Juga Layanan Kami Yang Lain</h1>
-        <p>Optimalkan performa website bisnis Anda dengan berbagai layanan berkualitas dari Qwords</p>
+    <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-out" class="bg-secondary flex flex-col justify-center items-center gap-5 m-20 p-20 w-full">
+        <h1 class="font-extrabold text-center text-5xl">Lihat Juga Layanan Kami Yang Lain</h1>
+        <p class="text-center">Optimalkan performa website bisnis Anda dengan berbagai layanan berkualitas dari Qwords</p>
         <div class="flex flex-row flex-wrap justify-center items-center gap-5 mt-10">
             @foreach ($otherService as $service)
-                <div
+                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="{{ $loop->iteration * 100}}" data-aos-once="true" data-aos-easing="ease-in-out"
                     class="card overflow-hidden hover:scale-105 active:scale-95 transition-all ease-in-out duration-300 bg-base-100 w-96 shadow-xl border border-slate-200 gap-5">
                     <div class="flex flex-col justify-center items-center text-center">
                         <div class="flex justify-center items-center bg-primary text-white w-full h-20">

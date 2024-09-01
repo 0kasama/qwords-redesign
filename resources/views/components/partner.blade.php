@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="flex flex-col justify-center items-center px-10 m-5">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-out" class="flex flex-col justify-center items-center px-10 m-5">
         <h1 class="font-extrabold text-center text-5xl mb-10">Partner Kami</h1>
         <div class="grid lg:grid-cols-5 grid-cols-3 justify-between items-center gap-10">
             <img src="{{ asset('assets/partner/google-cloud.webp') }}" alt="partner logo" />

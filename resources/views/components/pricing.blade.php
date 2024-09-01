@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -8,13 +8,13 @@
 </head>
 
 <body>
-    <div class="flex flex-col m-10 justify-center items-center gap-5">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-out" id="pricing" class="flex flex-col m-10 justify-center items-center gap-5">
         <h1 class="font-extrabold text-5xl text-center">Cloud Hosting Indonesia <span class="text-primary">Diskon
                 Hingga 50%</span></h1>
         <p class="text-center">Layanan cloud hosting indonesia terbaik dengan teknologi andal untuk website anda</p>
         <div class="flex flex-wrap justify-center items-center mt-5 gap-5">
             @foreach ($pricing as $pricing)
-                <div class="card bg-secondary w-96 shadow-xl divide-y border border-slate-200">
+                <div data-aos="flip-up" data-aos-duration="1000" data-aos-delay="{{ $loop->iteration * 100}}" data-aos-once="true" data-aos-easing="ease-in-out" class="card bg-secondary w-96 shadow-xl divide-y border border-slate-200">
                     <div class="flex flex-col p-5 justify-center items-center text-center">
                         <h2 class="text-3xl font-extrabold">{{ $pricing['title'] }}</h2>
                         <p>{{ $pricing['detail'] }}</p>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="flex flex-col w-full justify-center items-center px-10 m-10 gap-5">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-out" class="flex flex-col w-full justify-center items-center px-10 m-10 gap-5">
         <h1 class="font-extrabold text-5xl text-center mb-5">Pertanyaan seputar <span class="text-primary">Layanan Web
                 Hosting</span> Qwords</h1>
         <div class="flex flex-col lg:w-5/6 w-full gap-5 text-left text-pretty">

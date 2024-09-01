@@ -87,3 +87,44 @@ body {
 .link-footer {
     text-decoration-line: none;
 }
+
+.solution-card {
+    animation: scroll-right 30s linear infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.solution-card:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+  
+.commitment-card {
+    animation: scroll-left 30s linear infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    flex-shrink: 0;
+}
+
+.commitment-card:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}

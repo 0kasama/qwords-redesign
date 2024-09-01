@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -8,10 +8,10 @@
 </head>
 
 <body>
-    <div class="bg-secondary mb-10">
-        <div class="flex lg:flex-row flex-col-reverve gap-5 justify-center items-center px-5 lg:px-32">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-out" class="w-full bg-secondary mb-10 p-10">
+        <div class="flex lg:flex-row flex-col gap-5 justify-center items-center px-5 lg:px-32">
             <div class="w-full lg:w-2/5">
-                <img src="{{ asset('assets/graphics/moneyback-amico.png') }}" alt="web builder" />
+                <img src="{{ asset('assets/graphics/moneyback-amico.png') }}" width="450" alt="web builder" />
             </div>
             <div
                 class="flex flex-col justify-center items-center gap-10 w-full lg:w-3/5 text-center">

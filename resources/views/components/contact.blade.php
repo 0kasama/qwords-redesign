@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -8,12 +8,13 @@
 </head>
 
 <body>
-    <div class="flex flex-col contact-bg w-full justify-center items-center h-96 text-center mt-10 gap-5">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-out" class="flex flex-col contact-bg w-full justify-center items-center h-96 text-center mt-10 gap-5">
         <h1 class="font-extrabold text-5xl">Butuh <span class="text-primary">Bantuan?</span></h1>
         <p>Kami siap membantu anda 24 Jam</p>
         <div class="w-full flex flex-row flex-wrap justify-center items-center gap-5">
             <button class="btn btn-contact text-2xl">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <footer class="footer bg-neutral text-white grid-cols-4 p-10">
+    <footer class="footer bg-neutral text-white lg:grid-cols-4 grid-cols-1 p-10">
         <div class="flex flex-col gap-5">
             <nav class="flex flex-col gap-5">
                 <img src="{{ asset('assets/qwords-bnw.webp') }}" width="150" alt="qwords logo" />
@@ -171,10 +171,10 @@
         </div>
     </footer>
 
-    <footer class="footer bg-neutral text-white p-10">
+    <footer class="footer bg-neutral text-white lg:p-10 p-5">
         <div class="flex flex-col w-full justify-center items-center gap-5">
             <h1 class="text-lg font-bold text-center">Terdaftar di PSE, ICANN dan Partner Lainnya</h1>
-            <div class="flex justify-center items-center gap-2 mb-10">
+            <div class="flex flex-wrap justify-center items-center gap-2 mb-10">
                 <a href="https://pse.kominfo.go.id/tdpse-detail/1447"><img
                         src="{{ asset('assets/footer/qwords-qr.webp') }}" width="100" height="100"
                         alt="QR"></a>
@@ -190,7 +190,7 @@
                 <img src="{{ asset('assets/footer/acronis-sales.webp') }}" width="100" height="100"
                     alt="Acronis Sales">
             </div>
-            <h1 class="text-lg font-bold text-center">Copyright © 2024 PT. Qwords Company International</h1>
+            <h1 class="lg:text-lg text-md font-bold text-center">Copyright © 2024 PT. Qwords Company International</h1>
         </div>
     </footer>
 </body>
