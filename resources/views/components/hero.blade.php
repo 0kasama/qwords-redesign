@@ -23,7 +23,7 @@
                     Sekarang</button>
             </div>
             <div class="w-full flex justify-center items-center"><img
-                    src="{{ asset('assets/cloud-hosting-amico.png') }}" width="80%" alt="qwords logo" /></div>
+                    src="{{ asset('assets/graphics/cloud-hosting-amico.png') }}" width="80%" alt="qwords logo" /></div>
         </div>
 </body>
 
